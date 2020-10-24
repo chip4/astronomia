@@ -24,10 +24,10 @@
  * risk of typographical errors.
  */
 
-import base from './base'
-import sexa from './sexagesimal'
-import coord from './coord'
-import precess from './precess'
+import base from './base.js'
+import sexa from './sexagesimal.js'
+import coord from './coord.js'
+import precess from './precess.js'
 
 function sum (t, series) {
   const coeffs = []
@@ -55,7 +55,7 @@ export class Planet {
    * @example
    * ```js
    * // for use in browser
-   * import {data} from 'astronomia'
+   * import {data} from 'astronomia.js'
    * const earth = new planetposition.Planet(data.vsop87Bearth)
    * ```
    */

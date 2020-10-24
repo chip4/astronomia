@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   L: {
     "0": [
       [1.75347045673, 0, 0],
